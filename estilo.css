@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*background-color: #f0f8ff;  Fondo claro y suave */
+    font-family: 'Poppins', sans-serif; /* Usar la fuente Poppins */
+}
+
+.contenido {
+    text-align: center;
+   
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: transform 0.3s ease; /* Efecto suave al pasar el ratón */
+    z-index: 2;
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño de letra más grande */
+    color: #ece4e5; /* Color rojo suave */
+    font-weight: 700; /* Negrita para darle fuerza al mensaje */
+    letter-spacing: 2px; /* Espacio entre letras para mejor legibilidad */
+    line-height: 1.5; /* Espaciado entre líneas más amplio */
+}
